@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About me
+title: Sobre
 permalink: /about/
 banner_image: sample-banner-image-2.jpg
-banner_image_alt: About me
+banner_image_alt: Sobre
 ---
 
 Hi, I am Tom Warlker. I am a professional UI/UX designrer and web developer. I love being minimal and creative.
@@ -13,7 +13,7 @@ on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
 
 ### Contact me
 
-Say `Hello` at [webcreatelk@gmail.com]({{ site.email }}) or find
+Say `Hello` at [caique_jh@outlook.com]({{ site.email }}) or find
 me on
 
 ---

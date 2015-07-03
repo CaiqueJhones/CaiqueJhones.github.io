@@ -16,12 +16,12 @@ theme:
   highlight_color: "#205081" #205081" # "#272935"
   # Social media links, leave blank to ignore
   social: 
-    github: https://github.com/CaiqueJhones
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +gayanvirajith
+    github: CaiqueJhones
+    twitter: caiquejhoones
+    facebook: caique.jhoones
+    gplus: u/0/106305622677689366046/about
     # dribble: gayanvirajith
-    pinterest: gayanvirajith
+    # pinterest: gayanvirajith
 
   # Enable share buttons on post footer
   show_share_buttons: true
@@ -30,7 +30,7 @@ theme:
   show_author_info: true
 
   # Disqus comments manager - shortname
-  # disqus_shortname: gaya-webcreate
+  disqus_shortname: cjoblog
 
   # Google Analytics/Webmaster key, leave blank to ignore
   google_analytics_key: 
@@ -40,7 +40,7 @@ theme:
 markdown: kramdown
 
 # Permalinks
-permalink:        pretty
+permalink:        none
 
 # Pagination config
 paginate: 5
