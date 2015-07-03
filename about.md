@@ -6,15 +6,13 @@ banner_image: sample-banner-image-2.jpg
 banner_image_alt: Sobre
 ---
 
-Hi, I am Tom Warlker. I am a professional UI/UX designrer and web developer. I love being minimal and creative.
+Oi, eu sou um estudante da área das ciências exatas e nas horas vagas sou desenvolvedor/entusiasta de sistemas Java, Ruby e Android.   
 
-I prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+Além disso, gosto de escrever sobre diversos assuntos.
 
-### Contact me
+### Entre em contato comigo
 
-Say `Hello` at [caique_jh@outlook.com]({{ site.email }}) or find
-me on
+Diga `Olá` em [caique_jh@outlook.com] ({{}} site.email) ou encontrar-me.
 
 ---
 

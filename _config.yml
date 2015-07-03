@@ -3,8 +3,8 @@ title: CJ Blog
 tagline: developer
 email: caique_jh@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional UI/UX designrer and web developer. 
-  I love being minimal and creative.
+  Oi, eu sou um estudante da área das ciências exatas e nas horas vagas sou desenvolvedor/entusiasta
+  Java, Ruby e Android.   
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://caiquejhones.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
