@@ -33,8 +33,8 @@ theme:
   disqus_shortname: cjoblog
 
   # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: 
-  google_webmaster_key: 
+  google_analytics_key: UA-46646162-2
+  google_webmaster_key: XBzdUzuchqfXicS59l_Cs-MLMG3XzS27gLMV5cXJLgM
 
 # Build settings
 markdown: kramdown
