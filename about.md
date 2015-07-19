@@ -12,7 +12,7 @@ Além disso, gosto de escrever sobre diversos assuntos.
 
 ### Entre em contato comigo
 
-Diga `Olá` em [caique_jh@outlook.com] ({{}} site.email) ou encontrar-me.
+Diga `Olá` em [caique_jh@outlook.com](caique_jh@outlook.com).
 
 ---
 
