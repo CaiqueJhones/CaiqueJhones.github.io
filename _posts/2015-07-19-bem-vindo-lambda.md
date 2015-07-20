@@ -3,13 +3,13 @@ layout: post
 title:  "Java 8, Parte 1"
 date:   19-07-2015 20:30:21  
 description: Série de tutoriais sobre as novas funcionalidades da linguagem de programação Java, nesta primeira parte iremos entender como funcionam as expressões Lambdas.
-banner_image: sample-banner-image-1.jpg
+banner_image: java-8.png
 categories:
 - java
 - tutoriais
-permalink: sample-post
+permalink: bem-vindo-lambda
 meta_description: Série de tutoriais sobre as novas funcionalidades da linguagem de programação Java, nesta primeira parte iremos entender como funcionam as expressões Lambdas.
-browser_title: Bem vindo Lambda.
+browser_title: Bem vindo Lambda!
 comments: true
 ---
 Sejam bem vindos a esta série de tutoriais sobre o Java 8. Aqui abordaremos as principais funcionalidades acrescentadas na nova versão da linguagem e suas vantagens. Estaremos construindo diversos exemplos práticos que nos auxiliarão no aprendizado destes novos conceitos que o Java implementou.
@@ -23,7 +23,7 @@ Sumário:
 
 Uma das principais ferramentas implementada na linguagem com certeza foram as expressões lambdas, com elas agora temos uma nova forma de fazer iteração sobre coleções, vamos a um exemplo:
 
-```java
+{% highlight java %}
 package com.cjdeveloper.lambda;
 
 import java.util.Arrays;
@@ -51,9 +51,11 @@ public class TesteLambda {
 	}
 
 }
-```  
+{% endhighlight %}
+
 A saída deste programa será:
-```
+
+{% highlight %}
 ---------Forma tradicional----------
 Fabrício
 Santos
@@ -62,7 +64,8 @@ Agricultor
 Fabrício
 Santos
 Agricultor
-```
+{% endhighlight %}
+
 Apesar desse código parecer estranho a princípio, iremos ver que não é nada complicado e com o tempo estaremos abtuados com ele. Mas da onde vem o método `forEach` e qual argumento deve ser passado? O método `forEach` está dentro da interface `java.lang.Iterable` na qual `List` é herdada e seu argumento é `java.util.function.Consumer` uma interface que contem um **único método abstrato** o `accept(T t)`.
 
 Basicamente uma expressão Lambda dentro do Java é uma maneira menos verbosa de implementar uma interface que contem um único método abstrato(*Interfaces funcionais*), no caso do `forEach` é a interface `Consumer` que como o próprio nome diz, consome os dados dentro da coleção executando as instruções contida dentro do método `accept`. Podemos ainda estender este conceito para outros casos, como estes por exemplo:
