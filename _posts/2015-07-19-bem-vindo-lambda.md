@@ -3,7 +3,6 @@ layout: post
 title:  "Java 8, Parte 1"
 date:   19-07-2015 20:30:21  
 description: Série de tutoriais sobre as novas funcionalidades da linguagem de programação Java, nesta primeira parte iremos entender como funcionam as expressões Lambdas.
-banner_image: java-8.png
 categories:
 - java
 - tutoriais
