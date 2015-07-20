@@ -66,7 +66,7 @@ Santos
 Agricultor
 {% endhighlight %}
 
-Apesar desse código parecer estranho a princípio, iremos ver que não é nada complicado e com o tempo estaremos abtuados com ele. Mas da onde vem o método `forEach` e qual argumento deve ser passado? O método `forEach` está dentro da interface `java.lang.Iterable` na qual `List` é herdada e seu argumento é `java.util.function.Consumer` uma interface que contem um **único método abstrato** o `accept(T t)`.
+Apesar desse código parecer estranho a princípio, iremos ver que não é nada complicado e com o tempo estaremos habituados com ele. Mas da onde vem o método `forEach` e qual argumento deve ser passado? O método `forEach` está dentro da interface `java.lang.Iterable` na qual `List` é herdada e seu argumento é `java.util.function.Consumer` uma interface que contem um **único método abstrato** o `accept(T t)`.
 
 Basicamente uma expressão Lambda dentro do Java é uma maneira menos verbosa de implementar uma interface que contem um único método abstrato(*Interfaces funcionais*), no caso do `forEach` é a interface `Consumer` que como o próprio nome diz, consome os dados dentro da coleção executando as instruções contida dentro do método `accept`. Podemos ainda estender este conceito para outros casos, como estes por exemplo:
 
