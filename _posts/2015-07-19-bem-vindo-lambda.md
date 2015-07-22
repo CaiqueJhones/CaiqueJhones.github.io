@@ -54,16 +54,16 @@ public class TesteLambda {
 
 A saída deste programa será:
 
-{% highlight %}
----------Forma tradicional----------
-Fabrício
-Santos
-Agricultor
----------Com expressão lambda-------
-Fabrício
-Santos
-Agricultor
-{% endhighlight %}
+
+	---------Forma tradicional----------
+	Fabrício
+	Santos
+	Agricultor
+	---------Com expressão lambda-------
+	Fabrício
+	Santos
+	Agricultor
+
 
 Apesar desse código parecer estranho a princípio, iremos ver que não é nada complicado e com o tempo estaremos habituados com ele. Mas da onde vem o método `forEach` e qual argumento deve ser passado? O método `forEach` está dentro da interface `java.lang.Iterable` na qual `List` é herdada e seu argumento é `java.util.function.Consumer` uma interface que contem um **único método abstrato** o `accept(T t)`.
 
