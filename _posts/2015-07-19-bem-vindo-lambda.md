@@ -13,10 +13,10 @@ comments: true
 ---
 Sejam bem vindos a esta série de tutoriais sobre o Java 8. Aqui abordaremos as principais funcionalidades acrescentadas na nova versão da linguagem e suas vantagens. Estaremos construindo diversos exemplos práticos que nos auxiliarão no aprendizado destes novos conceitos que o Java implementou.
 
-Sumário:
+### Sumário:
 
 1. Seja bem vindo Lambda
-2. [Interfaces funcionais](http://caiquejhones.github.io/)
+2. [Interfaces funcionais](http://caiquejhones.github.io/interfaces-funcionais)
 
 ## Seja bem vindo Lambda
 
