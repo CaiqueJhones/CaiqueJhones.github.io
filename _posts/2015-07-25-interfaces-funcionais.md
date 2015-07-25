@@ -2,12 +2,12 @@
 layout: post
 title:  "Java 8, Parte 2"
 date:   25-07-2015 03:21:04 
-description: Série de tutoriais sobre as novas funcionalidades da linguagem de programação Java, nesta segunda parte iremos o que é interfaces funcionais.
+description: Série de tutoriais sobre as novas funcionalidades da linguagem de programação Java, nesta segunda parte iremos ver o que é interfaces funcionais.
 categories:
 - java
 - tutoriais
 permalink: interfaces-funcionais
-meta_description: Série de tutoriais sobre as novas funcionalidades da linguagem de programação Java, nesta segunda parte iremos o que é interfaces funcionais.
+meta_description: Série de tutoriais sobre as novas funcionalidades da linguagem de programação Java, nesta segunda parte iremos ver o que é interfaces funcionais.
 browser_title: Interfaces funcionais
 comments: true
 ---
@@ -17,6 +17,7 @@ Seja bem vindo a segunda parte da série de tutorias sobre Java 8 e neste tutori
 
 1. [Seja bem vindo Lambda](http://caiquejhones.github.io/bem-vindo-lambda)
 2. Interfaces funcionais
+3. [Default Methods](http://caiquejhones.github.io/default-methods)
 
 ## Interfaces funcionais
 
