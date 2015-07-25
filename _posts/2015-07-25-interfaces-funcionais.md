@@ -57,7 +57,8 @@ public static void exemplo2() {
 
 Dentro do método `exemplo2()` criamos primeiro uma classe anônima e executamos o método `draw` e logo abaixo criamos uma expressão lambda que executa a mesma tarefa, mas de uma forma muito mais enxuta, perceba que a variável `txt` dentro da expressão lambda é o argumento do método `draw`.
 
-<div class="alert alert-info" role="alert">Quando executamos apenas uma instrução dentro da expressão lambda, podemos suprimir as chaves.</div>
+
+> Quando executamos apenas uma instrução dentro da expressão lambda, podemos suprimir as chaves.
 
 Temos ainda a opção de anotar a nossa interface para que ela seja explicitamente uma interface funcional, desta forma:
 
@@ -74,18 +75,16 @@ public interface Print {
 
 Isto garante que caso a interface ganhe um novo método abstrato acidentalmente, este erro ocorra:
 
-<div class="alert alert-danger" role="alert">
-Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
-The target type of this expression must be a functional interface 
-</div>
+	Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	The target type of this expression must be a functional interface 
 
 E fará com que o Eclipse informe que o nosso programa contém erros. Esta anotação é opcional por um motivo muito importante: garantir que as interfaces existentes antes do Java 8 não quebrem.
 
 Outro detalhe interessante sobre as expressões lambdas é que podemos utilizar varáveis locais do método em que a expressão está contida, assim como ocorre com as classe anônimas, com a única exigência que a variável seja `final`. 
 
-<div class="alert alert-info" role="alert">
-A partir do Java 8 você não precisa mais explicitar que a variável local é final para utilizar dentro de classes anônimas ou expressões lambdas, basta apenas não alterá-la que o compilador irá traduzir como final, entretanto se houver qualquer alteração do valor da variável, um erro de compilação irá ocorrer.
-</div>
+
+> A partir do Java 8 você não precisa mais explicitar que a variável local é final para utilizar dentro de classes anônimas ou expressões lambdas, basta apenas não alterá-la que o compilador irá traduzir como final, entretanto se houver qualquer alteração do valor da variável, um erro de compilação irá ocorrer.
+
 
 {% highlight java %}
 
