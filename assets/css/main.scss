@@ -544,6 +544,10 @@ img {
   border-bottom-width: 2px;
 }
 
+.post-content {
+	text-align: justify;
+}
+
 /* Put some padding arround post images */
 .post .post-content img, .page .post-content img {
   padding: 1em 0;
