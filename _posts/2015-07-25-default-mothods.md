@@ -8,7 +8,7 @@ categories:
 - tutoriais
 permalink: default-methods
 meta_description: Série de tutoriais sobre as novas funcionalidades da linguagem de programação Java, nesta terceira parte iremos ver o que são default methods.
-browser_title: Interfaces funcionais
+browser_title: Default Methods
 comments: true
 ---
 Seja bem vindo a terceira parte da série de tutorias sobre Java 8 e neste tutorial iremos entender o que é e para que serve os métodos default.
@@ -18,6 +18,7 @@ Seja bem vindo a terceira parte da série de tutorias sobre Java 8 e neste tutor
 1. [Seja bem vindo Lambda]
 2. [Interfaces funcionais](http://caiquejhones.github.io/interfaces-funcionais)
 3. Default Methods
+4. [Method Reference](http://caiquejhones.github.io/method-reference)
 
 ## Default Methods
 

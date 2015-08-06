@@ -18,6 +18,7 @@ Sejam bem vindos a esta série de tutoriais sobre o Java 8. Aqui abordaremos as 
 1. Seja bem vindo Lambda
 2. [Interfaces funcionais](http://caiquejhones.github.io/interfaces-funcionais)
 3. [Default Methods](http://caiquejhones.github.io/default-methods)
+4. [Method Reference](http://caiquejhones.github.io/method-reference)
 
 ## Seja bem vindo Lambda
 
