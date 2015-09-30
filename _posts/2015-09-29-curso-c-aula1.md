@@ -10,7 +10,7 @@ meta_description: Curso de introdução à linguagem de programação C.
 browser_title: Introdução
 permalink: cursos/c/aula1
 comments: true
-banner_video: '<iframe width="560" height="315" src="//www.youtube.com/embed/arVZy_r84oI" frameborder="0" allowfullscreen></iframe>'
+banner_video: '<iframe width="560" height="315" src="//www.youtube.com/embed/pOcZf7EV4-0" frameborder="0" allowfullscreen></iframe>'
 ---
 Sejam bem vindos ao curso de introdução à linguagem de programação C, nesta aula iremos ver um pouco da história do computador bem como sua evolução, além disso iremos aprender a montar o ambiente para iniciar a programar em C.
 
