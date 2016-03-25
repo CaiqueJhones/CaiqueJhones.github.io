@@ -1,67 +1,286 @@
 ---
-layout: default
+layout: site
 ---
+<div class="primary col-md-8 col-sm-12 col-xs-12">
+    <section class="about section">
+        <div class="section-inner">
+            <h2 class="heading">Sobre</h2>
+            <div class="content">
+                <p>
+                  Olá, sou estudante de ciências exatas e entusiasta em programação, um dos meus principais hobbies é programar. Dês da primeira vez que entrei em contato com o universo da internet e consequentemente dos computadores, códigos e lógica sempre me fascinaram, apesar de ser bastante intrigante e muito confuso a princípio, aprender a navegar neste mar foi uma experiência bastante desafiadora e difícil.
+                </p>
+                <p>
+                  Minha primeira experiência com desenvolvimento aconteceu quando tive a ideia de transformar um jogo RPG de mesa que tinha criado, em um jogo de computador, dentre os softwares disponíveis, escolhi o RPG Maker VX, a comunidade era gigantesca e encontrar tutoriais era bastante simples. Apesar do software disponibilizar ferramentas gráficas para a criação do game, algo me chamava bastante atenção: o editor de script Ruby, todos aqueles códigos pelo qual eu não entendia como funcionava, me fazia passar horas tentando desvendá-los, e assim, a finalidade principal (o desenvolvimento do jogo) foi deixada de lado para algo muito mais profundo e que verdadeiramente iria mudar todo o meu percusso profissional.
+                </p>
+                <p>
+                  Hoje eu desenvolvo sistemas nas plataformas Java e Android (e estudo Ruby on Rails nas horas vagas). Acredito que o universo da computação é tão imenso quanto o nosso universo real e que sempre tem algo para se aprender, conhecer e se divertir.
+                </p>
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </section><!--//section-->
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
+   <section class="latest section">
+        <div class="section-inner">
+            <h2 class="heading">Últimos projetos</h2>
+            <div class="content">
 
-    {% if post.banner_image %}
-    <div class="banner-image">
-      <a href="{{ post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url |  }}" 
-        title="{{ post.title }}">
-      <img 
-          src="{{ "/assets/images/" | append: post.banner_image | prepend: site.baseurl | prepend: site.url }}" 
-          alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}">
-      </a>
-    </div>
-    {% endif %}
+                <div class="item featured text-center">
+                    <h3 class="title"><a href="#">M-LABS</a></h3>
+                    <p class="summary">Projeto de desenvolvimento de um laboratório de física utilizando dispositivos móveis</p>
+                    <div class="featured-image">
+                        <a href="#">
+                        <img class="img-responsive project-image" src="{{ '/assets/images/android_develop_1.png' | | prepend: site.baseurl | prepend: site.url }}" alt="M-LABS" />
+                        </a>
+                        <div class="ribbon">
+                            <div class="text">Novo</div>
+                            </div>
+                        </div>
 
-    <h1 class="post-title">
-      <a href="{{ post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url |  }}">
-        {{ post.title }}
-      </a>
-    </h1>
+                    <div class="desc text-left">
+                        <p>Com a disseminação mundial dos dispositivos móveis e suas características tais como: a alta portabilidade, processadores altamente eficientes, manuseios interativos, geometrias ergonômicas e financeiramente acessíveis, fazem desses dispositivos um ambiente propício a estudos e construção de ambientes educacionais.</p>
 
-    <p class="post-meta">
-    {% if (post.categories.size > 0 %}
-      <span class="categories">
-      {{ post.categories | array_to_sentence_string }}
-      </span> |
-    {% endif %}
-    <span class="post-date">
-    {{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}  
-    </span>
-    </p>
+                        <p>Este trabalho tem como objetivo a construção de um aplicativo para elaboração de experimentos físicos através da utilização de dispositivos móveis como: tablets e smartphones com o sistema operacional Android.</p>
+                    </div><!--//desc-->
+                    <a class="btn btn-cta-secondary" href="#"><i class="fa fa-thumbs-o-up"></i> Apoiar o meu projeto</a>
+                </div><!--//item-->
+                <hr class="divider" />
+                <div class="item row">
+                    <a class="col-md-4 col-sm-4 col-xs-12" href="https://play.google.com/store/apps/details?id=cj.solstice.minhasnotas" target="_blank">
+                    <img class="img-responsive project-image" src="{{ '/assets/images/minhas_notas.png' | | prepend: site.baseurl | prepend: site.url }}" alt="Minhas notas" />
+                    </a>
+                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                        <h3 class="title"><a href="https://play.google.com/store/apps/details?id=cj.solstice.minhasnotas" target="_blank">Minhas notas</a></h3>
+                        <p>Este aplicativo foi pensado e elaborado para os alunos que gostam de organizar suas notas acadêmicas. Gerencie de uma forma prática e bem organizada suas notas, veja sua média e quanto necessita para passar em uma determinada disciplina caso você fique na prova final. Além do mais, ele já faz essas contas para você, bastando apenas que você se preocupe em informar as notas de cada prova.</p>
+                        <p><a class="more-link" href="https://play.google.com/store/apps/details?id=cj.solstice.minhasnotas" target="_blank"><i class="fa fa-external-link"></i> Descubra mais</a></p>
+                    </div><!--//desc-->
+                </div><!--//item-->
 
-    {{ post.excerpt }}
-  </article>
-  {% endfor %}
-</div>
+                <div class="item row">
+                    <a class="col-md-4 col-sm-4 col-xs-12" href="http://integre.ufrb.edu.br/" target="_blank">
+                    <img class="img-responsive project-image" src="{{ '/assets/images/integre.png' | prepend: site.baseurl | prepend: site.url }}" alt="project name" />
+                    </a>
+                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                        <h3 class="title"><a href="http://integre.ufrb.edu.br/" target="_blank">Integre</a></h3>
+                        <p>A plataforma web Integre disponibiliza um ambiente de estudo por meio de artigos dinâmicos com conteúdos de matemática básica, cálculo diferencial e integral, geometria analítica e física, com acompanhamento de desempenho dos estudantes recém-ingressos nos cursos do Centro de Ciências Exatas e Tecnológicas da Universidade Federal do Recôncavo da Bahia - UFRB.</p>
+                        <p><a class="more-link" href="http://integre.ufrb.edu.br/" target="_blank"><i class="fa fa-external-link"></i> Descubra mais</a></p>
+                    </div><!--//desc-->
+                </div><!--//item-->
 
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  
-  {% if paginator.next_page %}
-      <a class="pagination-item older btn" href="{{ paginator.next_page_path | prepend: site.baseurl | append: '/' | replace: '//', '/' }}">Older</a>    
-  {% else %}
-    <span class="pagination-item older btn-disabled">Older</span>
-  {% endif %}
-  
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer btn " href="{{ paginator.previous_page_path | prepend: site.baseurl | append: '/' | replace: '//', '/' }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer btn-disabled">Newer</span>
-  {% endif %}  
-  
-</div>
-{% endif %}
+                <div class="item row">
+                    <a class="col-md-4 col-sm-4 col-xs-12" href="#">
+                    <img class="img-responsive project-image" src="{{ '/assets/images/axial.png' | | prepend: site.baseurl | prepend: site.url }}" alt="Axial" />
+                    </a>
+                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                        <h3 class="title"><a href="#">Axial</a></h3>
+                        <p>Software para análise de estruturas treliçadas isoestática. O programa calculas as reações de apoio, trações e compressões nas barras que formam a estrutura.</p>
+                        <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> Descubra mais</a></p>
+                    </div><!--//desc-->
+                </div><!--//item-->
 
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "{{ '' | prepend: site.baseurl | prepend: site.url | append: '/' }}"
-    }
-}
-</script>
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </section><!--//section-->
+
+    <section class="projects section">
+        <div class="section-inner">
+            <h2 class="heading">Outros projetos</h2>
+            <div class="content">
+                <div class="item">
+                    <h3 class="title"><a href="http://integre.ufrb.edu.br/">Integre CMS</a></h3>
+                    <p class="summary">Software que gerência o sistema web Integre, utilizado pelos administradores do site.</p>
+                    <p><a class="more-link" href="http://integre.ufrb.edu.br/" target="_blank"><i class="fa fa-external-link"></i> Descubra mais</a></p>
+                </div><!--//item-->
+                <div class="item">
+                    <h3 class="title"><a href="https://play.google.com/store/apps/details?id=com.jhonesdeveloper.prefeitura">Vota São Felipe</a></h3>
+                    <p class="summary">Aplicativo para pesquisa de intenção de votos para candidatos à prefeito e vereadores e avaliação da atual gestão da cidade de São Felipe (BA).</p>
+                    <p><a class="more-link" href="https://play.google.com/store/apps/details?id=com.jhonesdeveloper.prefeitura" target="_blank"><i class="fa fa-external-link"></i> Descubra mais</a></p>
+                </div><!--//item-->
+                <div class="item">
+                    <h3 class="title"><a href="#">Estrutura de Dados em Java</a> <span class="label label-theme">Open Source</span></h3>
+                    <p class="summary">Projeto de construção de uma mini API com os conhecimentos adquiridos na disciplina Estrutura de Dados.</p>
+                    <p><a class="more-link" href="https://github.com/CaiqueJhones/ProjetoEstruturaDeDados" target="_blank"><i class="fa fa-external-link"></i> Ver no GitHub</a></p>
+                </div><!--//item-->
+
+                <!-- <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a> -->
+
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </section><!--//section-->
+
+    <section class="experience section">
+        <div class="section-inner">
+            <h2 class="heading">Experiência de trabalho</h2>
+            <div class="content">
+                <div class="item">
+                    <h3 class="title">Estagiário - <span class="place"><a href="https://www1.ufrb.edu.br/ead/">SEAD</a></span> <span class="year">(2015 - Presente)</span></h3>
+                    <p>Desenvolvimento de aplicativos mobiles.</p>
+                </div><!--//item-->
+                <div class="item">
+                    <h3 class="title">Jovem aprendiz - <span class="place"><a href="http://www.bnb.gov.br/">Banco do Nordeste</a></span> <span class="year">(2010 - 2012)</span></h3>
+                    <p>Programa para jovens com idades entre 14 e 24 anos que desejam iniciar a carreira profissional e ganhar experiência. Além do trabalho o jovem ganha um curso de introdução a administração.</p>
+                </div><!--//item-->
+
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </section><!--//section-->
+    <section class="github section">
+        <div class="section-inner">
+            <h2 class="heading">Meu GitHub</h2>
+            <div id="ghfeed" class="ghfeed">
+            </div><!--//ghfeed-->
+
+        </div><!--//secton-inner-->
+    </section><!--//section-->
+</div><!--//primary-->
+
+<div class="secondary col-md-4 col-sm-12 col-xs-12">
+     <aside class="info aside section">
+        <div class="section-inner">
+            <h2 class="heading sr-only">Informações básicas</h2>
+            <div class="content">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Cruz das Almas, BA</li>
+                    <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">caiquejh@gmail.com</a></li>
+                    <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">{{ '/blog' | prepend: site.baseurl | prepend: site.url }}</a></li>
+                </ul>
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </aside><!--//aside-->
+
+    <aside class="skills aside section">
+        <div class="section-inner">
+            <h2 class="heading">habilidades</h2>
+            <div class="content">
+                <p class="intro">Sou entusiasta em programação desktop, mobile e web.</p>
+
+                <div class="skillset">
+
+                    <div class="item">
+                        <h3 class="level-title">Java SE<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Domínio razoavelmente bom">Pro</span></h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Android<span class="level-label">Bom</span></h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Javascript &amp; JQuery<span class="level-label">Razoável</span></h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="60%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Ruby on Rails<span class="level-label">Aprendendo</span></h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="30%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <!-- <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p> -->
+                </div>
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </aside><!--//section-->
+
+    <aside class="education aside section">
+        <div class="section-inner">
+            <h2 class="heading">Educação</h2>
+            <div class="content">
+                <div class="item">
+                    <h3 class="title"><i class="fa fa-graduation-cap"></i> Bacharel em Ciências Exatas</h3>
+                    <h4 class="university">Universidade Federal do Recôncavo da Bahia <span class="year">(2012 - Presente)</span></h4>
+                </div><!--//item-->
+                <div class="item">
+                    <h3 class="title"><i class="fa fa-graduation-cap"></i> Engenharia de Computação</h3>
+                    <h4 class="university">Universidade Federal do Recôncavo da Bahia <span class="year">(2016)</span></h4>
+                </div><!--//item-->
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </aside><!--//section-->
+
+    <aside class="languages aside section">
+        <div class="section-inner">
+            <h2 class="heading">Idiomas</h2>
+            <div class="content">
+                <ul class="list-unstyled">
+                    <li class="item">
+                        <span class="title"><strong>Portugês:</strong></span>
+                        <span class="level">Nativo <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                    </li><!--//item-->
+                    <li class="item">
+                        <span class="title"><strong>Inglês:</strong></span>
+                        <span class="level">Aprendendo <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                    </li><!--//item-->
+                </ul>
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </aside><!--//section-->
+
+    <aside class="blog aside section">
+        <div class="section-inner">
+            <h2 class="heading">Últimas publicações do Blog</h2>
+            <div id="rss-feeds" class="content">
+
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </aside><!--//section-->
+
+    <aside class="list music aside section">
+        <div class="section-inner">
+            <h2 class="heading">Músicas</h2>
+            <div class="content">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-headphones"></i> <a href="#">Tempo perdido</a></li>
+                    <li><i class="fa fa-headphones"></i> <a href="#">Além do que se Vê</a></li>
+                    <li><i class="fa fa-headphones"></i> <a href="#">Mais uma vez</a></li>
+                    <li><i class="fa fa-headphones"></i> <a href="#">Último românce</a></li>
+                </ul>
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </aside><!--//section-->
+
+    <aside class="list conferences aside section">
+        <div class="section-inner">
+            <h2 class="heading">Eventos</h2>
+            <div class="content">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-calendar"></i> <a href="#">II Reconcitec 2012</a> (Cruz das Almas)</li>
+                    <li><i class="fa fa-calendar"></i> <a href="#">III Reconcitec 2014</a> (Cruz das Almas)</li>
+                    <li><i class="fa fa-calendar"></i> <a href="#">I Reconbits</a> (Cruz das Almas)</li>
+                    <li><i class="fa fa-calendar"></i> <a href="#">XIII SEPIP</a> (Cruz das Almas)</li>
+                </ul>
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </aside><!--//section-->
+
+    <aside class="credits aside section">
+        <div class="section-inner">
+            <h2 class="heading">Créditos</h2>
+            <div class="content">
+                <ul class="list-unstyled">
+                    <li><a href="http://getbootstrap.com/" target="_blank"><i class="fa fa-external-link"></i> Bootstrap 3.2</a></li>
+                    <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fa fa-external-link"></i> FontAwsome 4.1</a></li>
+                    <li><a href="http://jquery.com/" target="_blank"><i class="fa fa-external-link"></i> jQuery</a></li>
+                    <li><a href="http://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fa fa-external-link"></i> GitHub Activity Stream</a></li>
+                    <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fa fa-external-link"></i> jQuery RSS</a></li>
+                </ul>
+
+                <hr/>
+
+                 <p>This responsive HTML5 CSS3 site template is handcrafted by UX designer <a href="https://www.linkedin.com/in/xiaoying" target="_blank">Xiaoying Riley</a> at <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
+            </div><!--//content-->
+        </div><!--//section-inner-->
+    </aside><!--//section-->
+
+</div><!--//secondary-->
