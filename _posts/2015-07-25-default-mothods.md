@@ -15,10 +15,10 @@ Seja bem vindo a terceira parte da série de tutorias sobre Java 8 e neste tutor
 
 ### Sumário
 
-1. [Seja bem vindo Lambda]
-2. [Interfaces funcionais](http://caiquejhones.github.io/interfaces-funcionais)
+1. [Seja bem vindo Lambda]({{ 'bem-vindo-lambda' | prepend: site.baseurl | prepend: site.url }})
+2. [Interfaces funcionais]({{ 'interfaces-funcionais' | prepend: site.baseurl | prepend: site.url }})
 3. Default Methods
-4. [Method Reference](http://caiquejhones.github.io/method-reference)
+4. [Method Reference]({{ 'method-reference' | prepend: site.baseurl | prepend: site.url }})
 
 ## Default Methods
 
@@ -58,14 +58,14 @@ Notamos que existe um default method, vamos ver o que ele faz:
 public static void exemplo3() {
 	Consumer<String> m1 = t -> System.out.println("Bem vindo:");
 	Consumer<String> m2 = t -> System.out.println(t);
-	
+
 	List<String> list = Arrays.asList("Lambda", "Interfaces funcionais", "Default methods");
-	
+
 	list.forEach(m1.andThen(m2));
 }
 {% endhighlight %}
 
-A saída será: 
+A saída será:
 
 	Bem vindo:
 	Lambda
@@ -82,9 +82,9 @@ public static void exemplo4() {
 	list.add("Lambda");
 	list.add("Interfaces funcionais");
 	list.add("Default methods");
-	
+
 	list.removeIf(s -> s.contains("i"));
-	
+
 	list.forEach(s -> System.out.println(s));
 }
 {% endhighlight %}
@@ -94,6 +94,6 @@ A saída será:
 	Lambda
 	Default methods
 
-Apesar de podermos agora escrever métodos dentro de interfaces isso não representa que o Java passou a aceitar heranças múltiplas, pois ainda tem-se restrições ao utilizar os default methods, um deles é que não é possível utilizar variáveis de instância, já que interfaces não as possui, faz sentido não? 
+Apesar de podermos agora escrever métodos dentro de interfaces isso não representa que o Java passou a aceitar heranças múltiplas, pois ainda tem-se restrições ao utilizar os default methods, um deles é que não é possível utilizar variáveis de instância, já que interfaces não as possui, faz sentido não?
 
 [Seja bem vindo Lambda]:(http://caiquejhones.github.io/bem-vindo-lambda)

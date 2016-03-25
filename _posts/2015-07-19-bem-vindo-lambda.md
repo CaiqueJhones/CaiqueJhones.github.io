@@ -16,9 +16,9 @@ Sejam bem vindos a esta série de tutoriais sobre o Java 8. Aqui abordaremos as 
 ### Sumário:
 
 1. Seja bem vindo Lambda
-2. [Interfaces funcionais](http://caiquejhones.github.io/interfaces-funcionais)
-3. [Default Methods](http://caiquejhones.github.io/default-methods)
-4. [Method Reference](http://caiquejhones.github.io/method-reference)
+2. [Interfaces funcionais]({{ 'interfaces-funcionais' | prepend: site.baseurl | prepend: site.url }})
+3. [Default Methods]({{ 'default-methods' | prepend: site.baseurl | prepend: site.url }})
+4. [Method Reference]({{ 'method-reference' | prepend: site.baseurl | prepend: site.url }})
 
 ## Seja bem vindo Lambda
 
@@ -35,14 +35,14 @@ public class TesteLambda {
 	public static void main(String[] args) {
 		exemplo1();
 	}
-	
+
 	public static void exemplo1() {
 		String nome = "Fabrício";
 		String sobrenome = "Santos";
 		String trabalho = "Agricultor";
-		
+
 		List<String> attr = Arrays.asList(nome, sobrenome, trabalho);
-		
+
 		System.out.println("---------Forma tradicional----------");
 		for(String string : attr) {
 			System.out.println(string);
@@ -75,7 +75,7 @@ Basicamente uma expressão Lambda dentro do Java é uma maneira menos verbosa de
 JButton button = new JButton("Click");
 //forma tradicional
 button.addActionListener(new ActionListener() {
-	
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		System.out.println("Forma verbosa");
@@ -85,7 +85,7 @@ button.addActionListener(new ActionListener() {
 button.addActionListener(e -> System.out.println("Com Lambda"));
 //forma tradicional
 Runnable run = new Runnable() {
-	
+
 	@Override
 	public void run() {
 		System.out.println("Forma verbosa");
@@ -99,7 +99,7 @@ new Thread(() -> {
 	System.out.println("Com Lambda");
 	outros comandos...
 }).start();
-{% endhighlight %} 
+{% endhighlight %}
 
 Com estes exemplos fica evidente o quanto o código fica mais enxuto e muito menos verboso, na verdade por debaixo dos panos o compilador infere todo o código por nós dentro do método da interface, tornando a expressão Lambda no Java um forte recurso na hora da codificação.
 

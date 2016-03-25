@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java 8, Parte 4"
-date:   06-08-2015 18:21:37 
+date:   06-08-2015 18:21:37
 description: Série de tutoriais sobre as novas funcionalidades da linguagem de programação Java, nesta quarta parte iremos entender como funciona o method reference.
 categories:
 - java
@@ -15,9 +15,9 @@ Seja bem vindo a quarta parte da série de tutorias sobre Java 8 e neste tutoria
 
 ### Sumário
 
-1. [Seja bem vindo Lambda](http://caiquejhones.github.io/bem-vindo-lambda)
-2. [Interfaces funcionais](http://caiquejhones.github.io/interfaces-funcionais)
-3. [Default Methods](http://caiquejhones.github.io/default-methods)
+1. [Seja bem vindo Lambda]({{ 'bem-vindo-lambda' | prepend: site.baseurl | prepend: site.url }})
+2. [Interfaces funcionais]({{ 'interfaces-funcionais' | prepend: site.baseurl | prepend: site.url }})
+3. [Default Methods]({{ 'default-methods' | prepend: site.baseurl | prepend: site.url }})
 4. Method Reference
 
 Primeiramente vamos imaginar que estamos desenvolvendo um blog e queremos popularmos com vários artigos, bem como fazer diversos tratamentos como: ordenar, verificar qual artigo possui mais visualizações, categorizar e etc. Vamos as classes:
@@ -92,12 +92,12 @@ public class Article {
 package com.cjdeveloper.java8.blog;
 
 public class Author {
-	
+
 	private String name;
 
 	public Author() {
 	}
-		
+
 	public Author(String name) {
 		this.name = name;
 	}
@@ -105,15 +105,15 @@ public class Author {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
-	
+
 	public void imprime() {
 		System.out.println(name);
 	}
-	
+
 	@Override
 	public String toString() {
 		return name;
@@ -126,7 +126,7 @@ public class Author {
 package com.cjdeveloper.java8.blog;
 
 public enum Category {
-	
+
 	ECONOMIA,
 	CULINARIA,
 	LAZER,
@@ -170,7 +170,7 @@ Perceba que foi utilizado o nome da classe juntamente com o delimitador `::` mai
 
 ### Referenciando métodos de instância
 
-Um *method reference* do tipo `Author::imprime` só pode ser atribuído a uma interface funcional que receba um argumento  e que utilize a invocação do método, que é o caso da interface `Consumer`. Entretanto podemos utilizar uma instância e utilizar o *method reference* desta forma: `caique::imprime`, e a partir daí utilizá-lo em uma interface funcional que não recebe nenhum parâmetro. Exemplo: 
+Um *method reference* do tipo `Author::imprime` só pode ser atribuído a uma interface funcional que receba um argumento  e que utilize a invocação do método, que é o caso da interface `Consumer`. Entretanto podemos utilizar uma instância e utilizar o *method reference* desta forma: `caique::imprime`, e a partir daí utilizá-lo em uma interface funcional que não recebe nenhum parâmetro. Exemplo:
 
 {% highlight java %}
 Runnable r = caique::imprime;
