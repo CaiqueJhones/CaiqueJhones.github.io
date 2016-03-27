@@ -16,9 +16,9 @@ Sejam bem vindos a esta série de tutoriais sobre o Java 8. Aqui abordaremos as 
 ### Sumário:
 
 1. Seja bem vindo Lambda
-2. [Interfaces funcionais]({{ 'interfaces-funcionais' | prepend: site.baseurl | prepend: site.url }})
-3. [Default Methods]({{ 'default-methods' | prepend: site.baseurl | prepend: site.url }})
-4. [Method Reference]({{ 'method-reference' | prepend: site.baseurl | prepend: site.url }})
+2. [Interfaces funcionais]({{ '/interfaces-funcionais' | prepend: site.baseurl | prepend: site.url }})
+3. [Default Methods]({{ '/default-methods' | prepend: site.baseurl | prepend: site.url }})
+4. [Method Reference]({{ '/method-reference' | prepend: site.baseurl | prepend: site.url }})
 
 ## Seja bem vindo Lambda
 

@@ -15,10 +15,10 @@ Seja bem vindo a segunda parte da série de tutorias sobre Java 8 e neste tutori
 
 ### Sumário
 
-1. [Seja bem vindo Lambda]({{ 'bem-vindo-lambda' | prepend: site.baseurl | prepend: site.url }})
+1. [Seja bem vindo Lambda]({{ '/bem-vindo-lambda' | prepend: site.baseurl | prepend: site.url }})
 2. Interfaces funcionais
-3. [Default Methods]({{ 'default-methods' | prepend: site.baseurl | prepend: site.url }})
-4. [Method Reference]({{ 'method-reference' | prepend: site.baseurl | prepend: site.url }})
+3. [Default Methods]({{ '/default-methods' | prepend: site.baseurl | prepend: site.url }})
+4. [Method Reference]({{ '/method-reference' | prepend: site.baseurl | prepend: site.url }})
 
 ## Interfaces funcionais
 

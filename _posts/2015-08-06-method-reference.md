@@ -15,9 +15,9 @@ Seja bem vindo a quarta parte da série de tutorias sobre Java 8 e neste tutoria
 
 ### Sumário
 
-1. [Seja bem vindo Lambda]({{ 'bem-vindo-lambda' | prepend: site.baseurl | prepend: site.url }})
-2. [Interfaces funcionais]({{ 'interfaces-funcionais' | prepend: site.baseurl | prepend: site.url }})
-3. [Default Methods]({{ 'default-methods' | prepend: site.baseurl | prepend: site.url }})
+1. [Seja bem vindo Lambda]({{ '/bem-vindo-lambda' | prepend: site.baseurl | prepend: site.url }})
+2. [Interfaces funcionais]({{ '/interfaces-funcionais' | prepend: site.baseurl | prepend: site.url }})
+3. [Default Methods]({{ '/default-methods' | prepend: site.baseurl | prepend: site.url }})
 4. Method Reference
 
 Primeiramente vamos imaginar que estamos desenvolvendo um blog e queremos popularmos com vários artigos, bem como fazer diversos tratamentos como: ordenar, verificar qual artigo possui mais visualizações, categorizar e etc. Vamos as classes:

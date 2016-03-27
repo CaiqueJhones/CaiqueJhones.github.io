@@ -59,3 +59,5 @@ exclude:
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
+# Gems
+gems: [jekyll-paginate]
