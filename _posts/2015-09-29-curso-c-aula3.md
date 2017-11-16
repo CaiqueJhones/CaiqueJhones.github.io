@@ -10,7 +10,6 @@ meta_description: Curso de introdução à linguagem de programação C, nesta a
 browser_title: Operadores
 permalink: cursos/c/aula3
 comments: true
-banner_video: '<iframe width="560" height="315" src="//www.youtube.com/embed/pPRM96Xkrcw" frameborder="0" allowfullscreen></iframe>'
 ---
 Sejam bem vindos ao curso de introdução à linguagem de programação C, nesta aula iremos aprender sobre operadores.
 

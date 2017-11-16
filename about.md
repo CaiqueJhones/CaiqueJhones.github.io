@@ -2,7 +2,7 @@
 layout: page
 title: Sobre
 permalink: /about/
-banner_image: sample-banner-image-2.jpg
+banner_image: Web-Development.jpg
 banner_image_alt: Sobre
 ---
 
@@ -13,10 +13,6 @@ Minha primeira experiência com desenvolvimento aconteceu quando tive a ideia de
 Hoje eu desenvolvo sistemas nas plataformas Java e Android (e estudo Ruby on Rails nas horas vagas). Acredito que o universo da computação é tão imenso quanto o nosso universo real e que sempre tem algo para se aprender, conhecer e se divertir.
 
 Além disso, gosto de escrever sobre diversos assuntos.
-
-### Entre em contato comigo
-
-Diga `Olá` [aqui]({{ '/contact/' | prepend: site.baseurl | prepend: site.url }}).
 
 ---
 

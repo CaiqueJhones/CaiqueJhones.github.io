@@ -1,8 +1,8 @@
+- title: "Portfólio"
+  href: "/portfolio"
 - title: "Sobre" # Title/Caption of the menu item
   href: "/about" # the page where it pointed
 - title: "Arquivos"
   href: "/archive"
-- title: "Cursos"
-  href: "/cursos/"
 - title: "Contato"
   href: "/contact/"
