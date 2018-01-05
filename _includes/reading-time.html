@@ -1,0 +1,13 @@
+{% if post == nil %}{% assign content = page.content %}    
+{% else %}{% assign content = post.content %}{% endif %}
+
+{% assign words = content | number_of_words %}
+
+{% assign minutes = words | divided_by: 180 %}
+{% if minutes == 1 %}{% assign minutes_label = " minuto" %}
+{% else %}{% assign minutes_label = " minutos" %}{% endif %}
+
+<span>
+    {% if minutes > 0 %}{{ minutes }} {{minutes_label}} para ler
+    {% else %}menos que 1 minuto{% endif %}
+</span>

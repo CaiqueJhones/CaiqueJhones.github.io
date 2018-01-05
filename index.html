@@ -21,7 +21,8 @@ layout: default
     </h1>
 
     <p class="post-meta">
-      <span class="categories">{{ post.content | reading_time }}</span> |
+      {% include reading-time.html %} |
+      
       {% if post.categories.size > 0 %}
       <span class="categories">
         {{ post.categories | array_to_sentence_string: 'e' }}
