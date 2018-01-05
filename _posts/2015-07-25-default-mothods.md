@@ -11,7 +11,7 @@ meta_description: Série de tutoriais sobre as novas funcionalidades da linguage
 browser_title: Default Methods
 comments: true
 ---
-Seja bem vindo a terceira parte da série de tutorias sobre Java 8 e neste tutorial iremos entender o que é e para que serve os métodos default.
+Seja bem-vindo a terceira parte da série de tutorias sobre Java 8 e neste tutorial iremos entender o que é e para que serve os métodos default.
 
 ### Sumário
 

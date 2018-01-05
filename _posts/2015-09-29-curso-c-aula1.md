@@ -11,7 +11,7 @@ browser_title: Introdução
 permalink: cursos/c/aula1
 comments: true
 ---
-Sejam bem vindos ao curso de introdução à linguagem de programação C, nesta aula iremos ver um pouco da história do computador bem como sua evolução, além disso iremos aprender a montar o ambiente para iniciar a programar em C.
+Sejam bem-vindos ao curso de introdução à linguagem de programação C, nesta aula iremos ver um pouco da história do computador bem como sua evolução, além disso iremos aprender a montar o ambiente para iniciar a programar em C.
 
 ## História
 
@@ -25,7 +25,7 @@ A primeira versão de C foi criada por Dennis Ritchie em 1972 no laboratório Be
 
 ## Ferramentas de desenvolvimento
 
-Para programar em C é necessário um compilador e um editor comum como o notpad, entretanto normalmente usa-se uma ferramenta mais robusta que um simples editor de texto, pois à medida que o programa cresce fica difícil prosseguir com o editor de texto comum. Ferramentas de desenvolvimento trazem vários recursos que auxiliam a cração de programas, existem inúmeros softwares no mercado, mas neste curso utilizaremos o Code::Blocks, uma ferramenta profissional e open source. O programa pode ser baixado neste [link](http://www.codeblocks.org/downloads/26).
+Para programar em C é necessário um compilador e um editor comum como o notepad, entretanto normalmente usa-se uma ferramenta mais robusta que um simples editor de texto, pois à medida que o programa cresce fica difícil prosseguir com o editor de texto comum. Ferramentas de desenvolvimento trazem vários recursos que auxiliam a criação de programas, existem inúmeros softwares no mercado, mas neste curso utilizaremos o Code::Blocks, uma ferramenta profissional e open source. O programa pode ser baixado neste [link](http://www.codeblocks.org/downloads/26).
 
 ## Referências
 https://pt.wikipedia.org/wiki/C_(linguagem_de_programação), acessado no dia 23 de setembro de 2015, as 00:00 horas.
