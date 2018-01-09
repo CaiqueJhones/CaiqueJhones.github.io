@@ -9,7 +9,7 @@ url: "http://caiquejhones.github.io" # the base hostname & protocol for your sit
 logourl: /assets/images/logo.png # Site logo
 author: "Caique Jhones"
 author_thumbnail: "/assets/images/myAvatar.png" # Author avatar
-author_desc: "Estudante de Engenharia da Computação" # Author description
+author_desc: "Desenvolvedor de software" # Author description
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
