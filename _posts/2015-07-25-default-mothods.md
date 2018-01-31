@@ -94,6 +94,6 @@ A saída será:
 	Lambda
 	Default methods
 
-Apesar de podermos agora escrever métodos dentro de interfaces isso não representa que o Java passou a aceitar heranças múltiplas, pois ainda tem-se restrições ao utilizar os default methods, um deles é que não é possível utilizar variáveis de instância, já que interfaces não as possui, faz sentido não?
+Apesar de podermos agora escrever métodos dentro de interfaces isso não representa que o Java passou a aceitar heranças múltiplas, pois ainda tem-se restrições ao utilizar os default methods, um deles é que não é possível utilizar variáveis de instância, já que interfaces não as possui.
 
 [Seja bem vindo Lambda]:(http://caiquejhones.github.io/bem-vindo-lambda)

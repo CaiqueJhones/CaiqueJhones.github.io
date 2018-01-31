@@ -11,7 +11,7 @@ meta_description: Série de tutoriais sobre as novas funcionalidades da linguage
 browser_title: Bem vindo Lambda!
 comments: true
 ---
-Sejam bem-vindos a esta série de tutoriais sobre o Java 8. Aqui abordaremos as principais funcionalidades acrescentadas nesta nova versão da linguagem e suas vantagens. Estaremos construindo diversos exemplos práticos que nos auxiliarão no aprendizado destes novos conceitos que o Java implementou.
+Seja bem-vindo a esta série de tutoriais sobre o Java 8. Aqui abordaremos as principais funcionalidades acrescentadas nesta nova versão da linguagem e suas vantagens. Estaremos construindo diversos exemplos práticos que nos auxiliarão no aprendizado destes novos conceitos que o Java implementou.
 
 ### Sumário:
 
@@ -53,7 +53,9 @@ A saída deste programa será:
 	Agricultor
 
 
-No exemplo acima temos uma lista de strings e em seguida exibimos seu conteúdo de duas formas distintas: a primeira com um `for each` tradicional e a segunda utilizando um método chamado `forEach`, que encontra-se na interface `java.lang.Iterable` na qual `List` é herdada, seu argumento é do tipo `java.util.function.Consumer` uma interface que contem um **único método abstrato**, o `accept(T t)`. Nos próximos artigos iremos entender como foi possível a interface `Iterable` ganhar esse novo método sem que tenha quebrado a compatibilidade com versões anteriores da linguagem. 
+No exemplo acima temos uma lista de strings e em seguida exibimos seu conteúdo de duas formas distintas: a primeira com um `for each` tradicional e a segunda utilizando um método chamado `forEach`, que encontra-se na interface `java.lang.Iterable` na qual `List` é herdada, seu argumento é do tipo `java.util.function.Consumer` uma interface que contem um **único método abstrato**, o `accept(T t)`. 
+
+> Nos próximos artigos iremos entender como foi possível a interface `Iterable` ganhar esse novo método sem que tenha quebrado a compatibilidade com versões anteriores da linguagem. 
 
 No método `forEach` passamos como parâmetro a expressão lambda `s -> System.out.println(s)`, que é uma maneira mais concisa de escrever:
 
