@@ -20,8 +20,8 @@
   _config.yml given by Google web-master tools.
   {% endcomment %}
 
-  {% if site.theme.google_webmaster_key %}
-  <meta name="google-site-verification" content="{{ site.theme.google_webmaster_key }}" />
+  {% if site.google_webmaster_key %}
+  <meta name="google-site-verification" content="{{ site.google_webmaster_key }}" />
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
@@ -58,10 +58,10 @@
               <h1 class="name">{{ site.author }}</h1>
               <h2 class="desc">{{ site.author_desc }}</h2>
               <ul class="social list-inline">
-                  <li><a href="https://twitter.com/{{ site.theme.social.twitter }}" ><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="https://plus.google.com/{{ site.theme.social.gplus }}"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a href="https://facebook.com/{{ site.theme.social.facebook }}"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="https://github.com/{{ site.theme.social.github }}"><i class="fa fa-github-alt"></i></a></li>
+                  <li><a href="https://twitter.com/{{ site.social.twitter }}" ><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://plus.google.com/{{ site.social.gplus }}"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="https://facebook.com/{{ site.social.facebook }}"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://github.com/{{ site.social.github }}"><i class="fa fa-github-alt"></i></a></li>
               </ul>
           </div><!--//profile-->
           <a class="btn btn-cta-primary pull-right" href="{{ '/contact' | prepend: site.baseurl | prepend: site.url | append: '/' }}"><i class="fa fa-paper-plane"></i> Contato</a>

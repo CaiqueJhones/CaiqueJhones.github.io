@@ -10,31 +10,34 @@ logourl: /assets/images/logo.png # Site logo
 author: "Caique Jhones"
 author_thumbnail: "/assets/images/myAvatar.png" # Author avatar
 author_desc: "Desenvolvedor de software" # Author description
+
 # Theme customization - please change from the defaults!
-theme:
-  # Color for sidebar bar, links, etc
-  highlight_color: "#205081" #205081" # "#272935"
-  # Social media links, leave blank to ignore
-  social:
-    github: CaiqueJhones
-    twitter: caiquejhoones
-    facebook: caique.jhoones
-    gplus: u/0/+CaiqueJhones/about
-    # dribble: gayanvirajith
-    # pinterest: gayanvirajith
+# ---------------------------------------------------------------------------------------
 
-  # Enable share buttons on post footer
-  show_share_buttons: true
+# Color for sidebar bar, links, etc
+highlight_color: "#205081" #205081" # "#272935"
 
-  # Show author picure, name and social links on post footer
-  show_author_info: true
+# Social media links, leave blank to ignore
+social:
+  github: CaiqueJhones
+  twitter: caiquejhoones
+  facebook: caique.jhoones
+  gplus: u/0/+CaiqueJhones/about
+  # dribble: gayanvirajith
+  # pinterest: gayanvirajith
 
-  # Disqus comments manager - shortname
-  disqus_shortname: cjhonesblog
+# Enable share buttons on post footer
+show_share_buttons: true
 
-  # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: UA-46646162-2
-  google_webmaster_key: XBzdUzuchqfXicS59l_Cs-MLMG3XzS27gLMV5cXJLgM
+# Show author picure, name and social links on post footer
+show_author_info: true
+
+# Disqus comments manager - shortname
+disqus_shortname: cjhonesblog
+
+# Google Analytics/Webmaster key, leave blank to ignore
+google_analytics_key: UA-46646162-2
+google_webmaster_key: XBzdUzuchqfXicS59l_Cs-MLMG3XzS27gLMV5cXJLgM
 
 # Build settings
 markdown: kramdown
@@ -59,5 +62,6 @@ exclude:
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
-# Gems
-gems: [jekyll-paginate]
+  
+# Plugins
+plugins: [jekyll-paginate]
