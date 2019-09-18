@@ -23,6 +23,7 @@ Valorizo sua confiança em nos fornecer suas informações pessoais, portanto, e
 ### Contate-Nos
 
 Se você tiver alguma dúvida ou sugestão sobre minha Política de Privacidade, não hesite em entrar em contato comigo em caiquejh@gmail.com.
+
 ---
 
 {% include social.html %}
